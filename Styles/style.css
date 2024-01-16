@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 8.44rem;
+  border: 1px solid salmon;
+  font-family: 'Mulish', sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bar ul {
+  display: flex;
+  list-style: none;
+
+}
+
+.menu-bar ul li {
+  padding-left: 10px;
+}
+
+.banner {
+  border-radius: 1rem;
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Group 13 (1) (1).png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 73.125rem;
+  height: 31.25rem;
+  flex-shrink: 0;
+  margin-top: 3.06rem;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-heading {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 1.5rem;
+}
+
+.banner-para {
+  width: 42.25rem;
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  /* 162.5% */
+}
+
+.destination {
+  display: inline-flex;
+  padding: 1rem;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.30);
+}
+
+.destination>div {
+  width: 10.875rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input {
+  color: rgba(19, 19, 24, 0.50);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  overflow: hidden;
+}
+
+#preference {
+  color: rgba(19, 19, 24, 0.50);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+}
+
+#when {
+  color: rgba(19, 19, 24, 0.50);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+}
+
+#banner-btn {
+  width: 10.875rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #FF5400;
+}
+
+#banner-btn>button {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  background: #FF5400;
+}
+
+.fa-solid {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  color: #FFF;
+  padding-top: 0.4rem;
+}
