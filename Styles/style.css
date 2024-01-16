@@ -27,7 +27,7 @@ body {
 
 .banner {
   border-radius: 1rem;
-  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Group 13 (1) (1).png');
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("/Images/Group\ 13\ \(1\)\ \(1\).png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -42,7 +42,8 @@ body {
   align-items: center;
   box-sizing: border-box;
 }
-.banner-text{
+
+.banner-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -147,6 +148,15 @@ input {
 }
 
 
+
+
+
+
+
+
+
+
+
 /* Main Sections Design Star From Here */
 
 /* Popular tour Image */
@@ -198,12 +208,16 @@ input {
 }
 
 .popular-tours-image {
-  width: 33.75rem;
-  height: 34.375rem;
+  width: 100%;
+  height: auto;
   flex-shrink: 0;
-  background: url('/Images/Rectangle 4.png'), lightgray 50% / cover no-repeat;
+  background: url('/Images/Rectangle 4.png') lightgray 50% / cover no-repeat;
   background-position: center;
   border-radius: 0.5rem;
+  border: 1px solid blue;
+}
+.popular-image{
+  
 }
 
 .popular-tours-button {
@@ -229,27 +243,64 @@ input {
 }
 
 @media screen and (max-width: 576px) {
-  body{
+  body {
     margin: 0;
   }
+
   .banner {
     flex-direction: column;
   }
 
-  .banner-heading{
+  .banner-heading {
     font-size: 1.375rem;
     font-weight: 800;
   }
 
-  .banner-para{
+  .banner-para {
     font-size: 0.875rem;
     margin: 0 1rem;
     width: 90%;
     line-height: 1.5rem;
   }
+
   .destination {
     flex-direction: column;
   }
 
-  
+  .popular-tours {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popular-tours-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    border: 1px solid rgb(99, 6, 229);
+  }
+
+  .tours-text-heading {
+    font-size: 1.25rem;
+    max-width: 90%;
+  }
+
+  .tours-text-para {
+    font-size: 0.875rem;
+    max-width: 90%;
+  }
+
+  .tours-text-para-list ul {
+    font-size: 0.875rem;
+    max-width: 90%;
+  }
+
+  .popular-tours-image{
+    width: 100%;
+    height: auto;
+  }
+
 }
