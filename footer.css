@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  border: 1px solid #FF5400;
+}
+header, main{
+  margin: 0 8.44rem;
+}
+.dream-footer{
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  header, main {
+    margin: 0;
+  }
+}
