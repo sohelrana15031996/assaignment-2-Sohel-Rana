@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Mulish', sans-serif;
-  border: 1px solid #FF5400;
 }
 header, main{
   margin: 0 8.44rem;
@@ -38,9 +37,6 @@ header, main{
   text-align: center;
 }
 
-.your-destination {
-  border: 1px solid rebeccapurple;
-}
 
 
 .first-des {
