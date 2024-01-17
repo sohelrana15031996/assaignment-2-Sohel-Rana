@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 8.44rem;
+  font-family: 'Mulish', sans-serif;
+  border: 1px solid #FF5400;
+}
+
+.newsletter-image {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 6.25rem;
+}
+
+.newsletter {
+  width: 29.625rem;
+  border: 1px solid #FF5400;
+  padding: 2.56rem;
+  border-radius: 1rem;
+}
+
+.newsletter-heading {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 1rem;
+}
+
+.newsletter-para {
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  padding-bottom: 1rem;
+}
+
+.newletter-input {
+  width: 24.5625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#fullname {
+  width: 100%;
+  border-radius: 0.5rem;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 1rem;
+  text-align: left;
+  margin-top: 1.5rem;
+}
+
+#email {
+  width: 100%;
+  border-radius: 0.5rem;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 1rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+#subscribe-btn {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #FF5400;
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.letter-image {
+  background-image: url('../Images/Rectangle 8 (1).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 36.2rem;
+  height: 26.375rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.letter-image-text {
+  width: 18rem;
+  height: 6rem;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  border-radius: 1rem;
+  background: #FF5400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 2.6rem;
+  right: .2rem;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  body {
+    margin: 0;
+  }
+  .newsletter-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsletter{
+    width: 90%;
+    height: auto;
+  }
+  
+  .newsletter-heading{
+    font-size: 1.25rem;
+  }
+  .newsletter-para{
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+  .newletter-input{
+    width: 18rem;
+  }
+  #fullname {
+    margin-top: 1rem;
+  }
+  #subscribe-btn{
+    margin-top: 1.25rem;
+  }
+  .letter-image{
+    width: 90%;
+    height: 18.75rem;
+  }
+}

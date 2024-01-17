@@ -211,6 +211,8 @@ body {
   .hotels p {
     font-size: 0.875rem;
     line-height: 1.5rem;
+    width: 80%;
+    text-align: justify;
   }
 
   .service {
@@ -231,6 +233,8 @@ body {
   .service p {
     font-size: 0.875rem;
     line-height: 1.5rem;
+    width: 80%;
+    text-align: justify;
   }
     .price-gurantee {
     width: 90%;
@@ -250,6 +254,8 @@ body {
   .price-gurantee p {
     font-size: 0.875rem;
     line-height: 1.5rem;
+    width: 80%;
+    text-align: justify;
   }
 
 
